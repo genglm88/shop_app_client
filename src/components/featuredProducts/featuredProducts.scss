@@ -1,0 +1,30 @@
+@import "../../style.scss";
+
+.featuredProducts {
+  @include themify($themes) {
+    padding: 100px 200px;
+    .top{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 50px;
+      
+      h1 {
+        flex: 2;
+        font-size: 24px;
+        text-transform: capitalize;
+      }
+      span {
+        flex: 3;
+        color:themed("textColorSoft")
+      }
+
+    }
+
+    .bottom {
+      display: flex;
+      
+      justify-content: space-around;
+    }
+  }
+}

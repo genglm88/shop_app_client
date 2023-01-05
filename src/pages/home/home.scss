@@ -1,0 +1,13 @@
+@import "../../style.scss";
+
+.home {
+    @include themify($themes) {
+        font-family: $font-stack;
+
+        background-color: themed("bgSoft");
+       
+
+      
+
+    }
+}
