@@ -1,6 +1,6 @@
 import React from "react";
 import "../../index.css";
-import List from "../../components/List/List";
+import List from "../../components/list/List";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useFetch } from "../../hooks/useFetch";
@@ -17,10 +17,10 @@ const SubCat = () => {
   const subCatImg=[
     "https://images.pexels.com/photos/581087/pexels-photo-581087.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "https://images.pexels.com/photos/3119180/pexels-photo-3119180.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "https://images.pexels.com/photos/2562992/pexels-photo-2562992.png?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/1023937/pexels-photo-1023937.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "https://images.pexels.com/photos/859895/pexels-photo-859895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/1023937/pexels-photo-1023937.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   ]
 
   const handleChange = (e) => {

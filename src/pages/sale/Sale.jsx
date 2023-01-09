@@ -1,6 +1,6 @@
 import React from "react";
 import "../../index.css";
-import List from "../../components/List/List";
+import List from "../../components/list/List";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useFetch } from "../../hooks/useFetch";

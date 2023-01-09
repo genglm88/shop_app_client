@@ -64,7 +64,7 @@ export const Categories = () => {
             alt=""
           />
           <button className="absolute cursor-pointer  px-2 sm:px-6  py-2 top-0 left-0 right-0 bottom-0 m-auto  bg-gray-100 w-min h-10 uppercase text-gray-500 text-xs sm:text-sm">
-            <Link to="/subcat/4">shoes</Link>
+            <Link to="/subcat/3">shoes</Link>
           </button>
         </div>
       </div>
